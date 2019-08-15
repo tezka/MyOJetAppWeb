@@ -1,0 +1,30 @@
+{
+  "name": "myojetappweb",
+  "version": "1.0.0",
+  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "dependencies": {
+    "@oracle/oraclejet": "~7.0.0",
+    "del": "^5.0.0",
+    "gulp-exec": "^4.0.0"
+  },
+  "devDependencies": {
+    "@oracle/oraclejet-tooling": "~7.0.0",
+    "git-rev": "^0.2.1",
+    "gulp": "^4.0.2",
+    "gulp-run-command": "0.0.9",
+    "gulp-war": "^0.1.4",
+    "gulp-zip": "^5.0.0",
+    "qunit": "^2.4.1",
+    "qunit-reporter-junit": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true,
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
